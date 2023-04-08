@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  MovieBookingSwiftUI
+//  MovieBooking
 //
-//  Created by Brenda Saavedra  on 08/04/23.
+//  Created by Willie Yam on 2022-08-16.
 //
 
 import SwiftUI
@@ -15,7 +15,6 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
         }
-        .padding()
     }
 }
 

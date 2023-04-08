@@ -7,29 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		236009D229E1FE65008C9B25 /* Buttons in Resources */ = {isa = PBXBuildFile; fileRef = 236009CB29E1FE65008C9B25 /* Buttons */; };
-		236009D329E1FE65008C9B25 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 236009CC29E1FE65008C9B25 /* Data */; };
 		236009D429E1FE65008C9B25 /* MovieBookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236009CD29E1FE65008C9B25 /* MovieBookingApp.swift */; };
-		236009D529E1FE65008C9B25 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236009CE29E1FE65008C9B25 /* utils.swift */; };
-		236009D629E1FE65008C9B25 /* UI in Resources */ = {isa = PBXBuildFile; fileRef = 236009CF29E1FE65008C9B25 /* UI */; };
-		236009D729E1FE65008C9B25 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 236009D029E1FE65008C9B25 /* Views */; };
-		236009D829E1FE65008C9B25 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = 236009D129E1FE65008C9B25 /* Preview Content */; };
-		23884B2A29E1FC1A00777D8F /* MovieBookingSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23884B2929E1FC1A00777D8F /* MovieBookingSwiftUIApp.swift */; };
+		236009ED29E2019A008C9B25 /* DateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236009E929E2019A008C9B25 /* DateButton.swift */; };
+		236009EE29E2019A008C9B25 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236009EA29E2019A008C9B25 /* CircleButton.swift */; };
+		236009EF29E2019A008C9B25 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236009EB29E2019A008C9B25 /* RoundButton.swift */; };
+		236009F029E2019A008C9B25 /* TimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236009EC29E2019A008C9B25 /* TimeButton.swift */; };
+		236009F229E20207008C9B25 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236009F129E20207008C9B25 /* utils.swift */; };
+		236009F629E20230008C9B25 /* TicketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236009F429E20230008C9B25 /* TicketData.swift */; };
+		236009F729E20230008C9B25 /* PosterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236009F529E20230008C9B25 /* PosterData.swift */; };
+		236009FB29E2024C008C9B25 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236009F929E2024C008C9B25 /* CircleBackground.swift */; };
+		236009FC29E2024C008C9B25 /* StatusUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236009FA29E2024C008C9B25 /* StatusUI.swift */; };
+		236009FF29E20280008C9B25 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236009FE29E20280008C9B25 /* TicketView.swift */; };
 		23884B2C29E1FC1A00777D8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23884B2B29E1FC1A00777D8F /* ContentView.swift */; };
 		23884B2E29E1FC1F00777D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23884B2D29E1FC1F00777D8F /* Assets.xcassets */; };
 		23884B3129E1FC1F00777D8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23884B3029E1FC1F00777D8F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		236009CB29E1FE65008C9B25 /* Buttons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Buttons; sourceTree = "<group>"; };
-		236009CC29E1FE65008C9B25 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
 		236009CD29E1FE65008C9B25 /* MovieBookingApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieBookingApp.swift; sourceTree = "<group>"; };
-		236009CE29E1FE65008C9B25 /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
-		236009CF29E1FE65008C9B25 /* UI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UI; sourceTree = "<group>"; };
-		236009D029E1FE65008C9B25 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
-		236009D129E1FE65008C9B25 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Preview Content"; sourceTree = "<group>"; };
+		236009E929E2019A008C9B25 /* DateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateButton.swift; sourceTree = "<group>"; };
+		236009EA29E2019A008C9B25 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		236009EB29E2019A008C9B25 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		236009EC29E2019A008C9B25 /* TimeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeButton.swift; sourceTree = "<group>"; };
+		236009F129E20207008C9B25 /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		236009F429E20230008C9B25 /* TicketData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketData.swift; sourceTree = "<group>"; };
+		236009F529E20230008C9B25 /* PosterData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterData.swift; sourceTree = "<group>"; };
+		236009F929E2024C008C9B25 /* CircleBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
+		236009FA29E2024C008C9B25 /* StatusUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusUI.swift; sourceTree = "<group>"; };
+		236009FE29E20280008C9B25 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 		23884B2629E1FC1A00777D8F /* MovieBookingSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieBookingSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		23884B2929E1FC1A00777D8F /* MovieBookingSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBookingSwiftUIApp.swift; sourceTree = "<group>"; };
 		23884B2B29E1FC1A00777D8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23884B2D29E1FC1F00777D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23884B3029E1FC1F00777D8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,6 +52,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		236009E829E2017B008C9B25 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				236009EA29E2019A008C9B25 /* CircleButton.swift */,
+				236009E929E2019A008C9B25 /* DateButton.swift */,
+				236009EB29E2019A008C9B25 /* RoundButton.swift */,
+				236009EC29E2019A008C9B25 /* TimeButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		236009F329E2021E008C9B25 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				236009F529E20230008C9B25 /* PosterData.swift */,
+				236009F429E20230008C9B25 /* TicketData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		236009F829E2023A008C9B25 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				236009F929E2024C008C9B25 /* CircleBackground.swift */,
+				236009FA29E2024C008C9B25 /* StatusUI.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		236009FD29E20258008C9B25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				236009FE29E20280008C9B25 /* TicketView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		23884B1D29E1FC1A00777D8F = {
 			isa = PBXGroup;
 			children = (
@@ -65,14 +108,12 @@
 		23884B2829E1FC1A00777D8F /* MovieBookingSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				236009CB29E1FE65008C9B25 /* Buttons */,
-				236009CC29E1FE65008C9B25 /* Data */,
+				236009F829E2023A008C9B25 /* UI */,
+				236009F329E2021E008C9B25 /* Data */,
+				236009F129E20207008C9B25 /* utils.swift */,
+				236009E829E2017B008C9B25 /* Buttons */,
 				236009CD29E1FE65008C9B25 /* MovieBookingApp.swift */,
-				236009D129E1FE65008C9B25 /* Preview Content */,
-				236009CF29E1FE65008C9B25 /* UI */,
-				236009CE29E1FE65008C9B25 /* utils.swift */,
-				236009D029E1FE65008C9B25 /* Views */,
-				23884B2929E1FC1A00777D8F /* MovieBookingSwiftUIApp.swift */,
+				236009FD29E20258008C9B25 /* Views */,
 				23884B2B29E1FC1A00777D8F /* ContentView.swift */,
 				23884B2D29E1FC1F00777D8F /* Assets.xcassets */,
 				23884B2F29E1FC1F00777D8F /* Preview Content */,
@@ -146,12 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				236009D629E1FE65008C9B25 /* UI in Resources */,
-				236009D229E1FE65008C9B25 /* Buttons in Resources */,
-				236009D829E1FE65008C9B25 /* Preview Content in Resources */,
 				23884B3129E1FC1F00777D8F /* Preview Assets.xcassets in Resources */,
-				236009D729E1FE65008C9B25 /* Views in Resources */,
-				236009D329E1FE65008C9B25 /* Data in Resources */,
 				23884B2E29E1FC1F00777D8F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,9 +200,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				23884B2C29E1FC1A00777D8F /* ContentView.swift in Sources */,
-				23884B2A29E1FC1A00777D8F /* MovieBookingSwiftUIApp.swift in Sources */,
+				236009F629E20230008C9B25 /* TicketData.swift in Sources */,
+				236009F229E20207008C9B25 /* utils.swift in Sources */,
+				236009EF29E2019A008C9B25 /* RoundButton.swift in Sources */,
 				236009D429E1FE65008C9B25 /* MovieBookingApp.swift in Sources */,
-				236009D529E1FE65008C9B25 /* utils.swift in Sources */,
+				236009F729E20230008C9B25 /* PosterData.swift in Sources */,
+				236009FF29E20280008C9B25 /* TicketView.swift in Sources */,
+				236009ED29E2019A008C9B25 /* DateButton.swift in Sources */,
+				236009FB29E2024C008C9B25 /* CircleBackground.swift in Sources */,
+				236009F029E2019A008C9B25 /* TimeButton.swift in Sources */,
+				236009FC29E2024C008C9B25 /* StatusUI.swift in Sources */,
+				236009EE29E2019A008C9B25 /* CircleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

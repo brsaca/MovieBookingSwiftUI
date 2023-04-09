@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		23189D0D29E244C100D4C0E7 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23189D0C29E244C100D4C0E7 /* Ticket.swift */; };
+		23189D0F29E24CEF00D4C0E7 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23189D0E29E24CEF00D4C0E7 /* Tickets.swift */; };
 		236009D429E1FE65008C9B25 /* MovieBookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236009CD29E1FE65008C9B25 /* MovieBookingApp.swift */; };
 		236009ED29E2019A008C9B25 /* DateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236009E929E2019A008C9B25 /* DateButton.swift */; };
 		236009EE29E2019A008C9B25 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236009EA29E2019A008C9B25 /* CircleButton.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		23189D0C29E244C100D4C0E7 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		23189D0E29E24CEF00D4C0E7 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 		236009CD29E1FE65008C9B25 /* MovieBookingApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieBookingApp.swift; sourceTree = "<group>"; };
 		236009E929E2019A008C9B25 /* DateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateButton.swift; sourceTree = "<group>"; };
 		236009EA29E2019A008C9B25 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				23189D0C29E244C100D4C0E7 /* Ticket.swift */,
+				23189D0E29E24CEF00D4C0E7 /* Tickets.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				236009F029E2019A008C9B25 /* TimeButton.swift in Sources */,
 				236009FC29E2024C008C9B25 /* StatusUI.swift in Sources */,
 				236009EE29E2019A008C9B25 /* CircleButton.swift in Sources */,
+				23189D0F29E24CEF00D4C0E7 /* Tickets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

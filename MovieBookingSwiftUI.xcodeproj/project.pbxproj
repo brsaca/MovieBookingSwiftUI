@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23189D0D29E244C100D4C0E7 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23189D0C29E244C100D4C0E7 /* Ticket.swift */; };
 		236009D429E1FE65008C9B25 /* MovieBookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236009CD29E1FE65008C9B25 /* MovieBookingApp.swift */; };
 		236009ED29E2019A008C9B25 /* DateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236009E929E2019A008C9B25 /* DateButton.swift */; };
 		236009EE29E2019A008C9B25 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236009EA29E2019A008C9B25 /* CircleButton.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23189D0C29E244C100D4C0E7 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		236009CD29E1FE65008C9B25 /* MovieBookingApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieBookingApp.swift; sourceTree = "<group>"; };
 		236009E929E2019A008C9B25 /* DateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateButton.swift; sourceTree = "<group>"; };
 		236009EA29E2019A008C9B25 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
@@ -52,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23189D0B29E244AF00D4C0E7 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				23189D0C29E244C100D4C0E7 /* Ticket.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
 		236009E829E2017B008C9B25 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +118,7 @@
 		23884B2829E1FC1A00777D8F /* MovieBookingSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				23189D0B29E244AF00D4C0E7 /* Cards */,
 				236009F829E2023A008C9B25 /* UI */,
 				236009F329E2021E008C9B25 /* Data */,
 				236009F129E20207008C9B25 /* utils.swift */,
@@ -205,6 +216,7 @@
 				236009EF29E2019A008C9B25 /* RoundButton.swift in Sources */,
 				236009D429E1FE65008C9B25 /* MovieBookingApp.swift in Sources */,
 				236009F729E20230008C9B25 /* PosterData.swift in Sources */,
+				23189D0D29E244C100D4C0E7 /* Ticket.swift in Sources */,
 				236009FF29E20280008C9B25 /* TicketView.swift in Sources */,
 				236009ED29E2019A008C9B25 /* DateButton.swift in Sources */,
 				236009FB29E2024C008C9B25 /* CircleBackground.swift in Sources */,

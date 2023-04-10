@@ -23,6 +23,8 @@
 		23884B2C29E1FC1A00777D8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23884B2B29E1FC1A00777D8F /* ContentView.swift */; };
 		23884B2E29E1FC1F00777D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23884B2D29E1FC1F00777D8F /* Assets.xcassets */; };
 		23884B3129E1FC1F00777D8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23884B3029E1FC1F00777D8F /* Preview Assets.xcassets */; };
+		2396DFF129E4C1560028AB2E /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2396DFF029E4C1560028AB2E /* TabData.swift */; };
+		2396DFF329E4C2EF0028AB2E /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2396DFF229E4C2EF0028AB2E /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		23884B2B29E1FC1A00777D8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		23884B2D29E1FC1F00777D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23884B3029E1FC1F00777D8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2396DFF029E4C1560028AB2E /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+		2396DFF229E4C2EF0028AB2E /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 			children = (
 				236009F529E20230008C9B25 /* PosterData.swift */,
 				236009F429E20230008C9B25 /* TicketData.swift */,
+				2396DFF029E4C1560028AB2E /* TabData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -90,6 +95,7 @@
 			children = (
 				236009F929E2024C008C9B25 /* CircleBackground.swift */,
 				236009FA29E2024C008C9B25 /* StatusUI.swift */,
+				2396DFF229E4C2EF0028AB2E /* CustomTabBar.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -214,8 +220,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				23884B2C29E1FC1A00777D8F /* ContentView.swift in Sources */,
+				2396DFF129E4C1560028AB2E /* TabData.swift in Sources */,
 				236009F629E20230008C9B25 /* TicketData.swift in Sources */,
 				236009F229E20207008C9B25 /* utils.swift in Sources */,
+				2396DFF329E4C2EF0028AB2E /* CustomTabBar.swift in Sources */,
 				236009EF29E2019A008C9B25 /* RoundButton.swift in Sources */,
 				236009D429E1FE65008C9B25 /* MovieBookingApp.swift in Sources */,
 				236009F729E20230008C9B25 /* PosterData.swift in Sources */,

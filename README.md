@@ -4,7 +4,7 @@ A project with SwiftUI based on the course [Build a Movie Booking App in SwiftUI
 
 <p align="center">
 <a href="#">
-
+<img src="images/movieSwiftUI.gif" align="center" width="50%">
 </a>  
 <br><br>
      Movie Booking App

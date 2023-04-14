@@ -104,12 +104,22 @@ struct BookingView: View {
                         TimeButton(hour: "20:00", isSelected: $bindingSelection)
                             .padding(.top, 20)
                     }
+                    
+                    NavigationLink {
+                        SeatsView()
+                    } label: {
+                        LargeButton()
+                            .padding(20)
+                            .offset(y: selectedDate && selectedHour ? 0 : 200)
+                    }
                 }
                 .frame(maxHeight: .infinity, alignment: .top)
             }
             .background(Color("backgroundColor2"))
             .ignoresSafeArea()
         }
+        
+        .navigationBarBackButtonHidden(true)
     }
 }
 

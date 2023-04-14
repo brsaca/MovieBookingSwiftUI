@@ -28,6 +28,8 @@
 		2396DFF529E4CC4D0028AB2E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2396DFF429E4CC4D0028AB2E /* HomeView.swift */; };
 		2396DFF729E4CCCA0028AB2E /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2396DFF629E4CCCA0028AB2E /* CustomSearchBar.swift */; };
 		2396DFF929E4CEDC0028AB2E /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2396DFF829E4CEDC0028AB2E /* ScrollSection.swift */; };
+		2396DFFB29E4D2A40028AB2E /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2396DFFA29E4D2A40028AB2E /* BookingView.swift */; };
+		23C6F7E129EA035F00BBEE80 /* SeatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C6F7E029EA035F00BBEE80 /* SeatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		2396DFF429E4CC4D0028AB2E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2396DFF629E4CCCA0028AB2E /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
 		2396DFF829E4CEDC0028AB2E /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
+		2396DFFA29E4D2A40028AB2E /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		23C6F7E029EA035F00BBEE80 /* SeatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,8 @@
 			children = (
 				236009FE29E20280008C9B25 /* TicketView.swift */,
 				2396DFF429E4CC4D0028AB2E /* HomeView.swift */,
+				2396DFFA29E4D2A40028AB2E /* BookingView.swift */,
+				23C6F7E029EA035F00BBEE80 /* SeatsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -232,11 +238,13 @@
 				2396DFF129E4C1560028AB2E /* TabData.swift in Sources */,
 				236009F629E20230008C9B25 /* TicketData.swift in Sources */,
 				236009F229E20207008C9B25 /* utils.swift in Sources */,
+				2396DFFB29E4D2A40028AB2E /* BookingView.swift in Sources */,
 				2396DFF329E4C2EF0028AB2E /* CustomTabBar.swift in Sources */,
 				2396DFF529E4CC4D0028AB2E /* HomeView.swift in Sources */,
 				236009EF29E2019A008C9B25 /* RoundButton.swift in Sources */,
 				236009D429E1FE65008C9B25 /* MovieBookingApp.swift in Sources */,
 				236009F729E20230008C9B25 /* PosterData.swift in Sources */,
+				23C6F7E129EA035F00BBEE80 /* SeatsView.swift in Sources */,
 				23189D0D29E244C100D4C0E7 /* Ticket.swift in Sources */,
 				236009FF29E20280008C9B25 /* TicketView.swift in Sources */,
 				236009ED29E2019A008C9B25 /* DateButton.swift in Sources */,

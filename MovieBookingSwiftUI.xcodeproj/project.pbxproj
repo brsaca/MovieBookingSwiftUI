@@ -30,6 +30,7 @@
 		2396DFF929E4CEDC0028AB2E /* ScrollSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2396DFF829E4CEDC0028AB2E /* ScrollSection.swift */; };
 		2396DFFB29E4D2A40028AB2E /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2396DFFA29E4D2A40028AB2E /* BookingView.swift */; };
 		23C6F7E129EA035F00BBEE80 /* SeatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C6F7E029EA035F00BBEE80 /* SeatsView.swift */; };
+		23C6F7E329EA0F8700BBEE80 /* LargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C6F7E229EA0F8700BBEE80 /* LargeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		2396DFF829E4CEDC0028AB2E /* ScrollSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollSection.swift; sourceTree = "<group>"; };
 		2396DFFA29E4D2A40028AB2E /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
 		23C6F7E029EA035F00BBEE80 /* SeatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsView.swift; sourceTree = "<group>"; };
+		23C6F7E229EA0F8700BBEE80 /* LargeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				2396DFF229E4C2EF0028AB2E /* CustomTabBar.swift */,
 				2396DFF629E4CCCA0028AB2E /* CustomSearchBar.swift */,
 				2396DFF829E4CEDC0028AB2E /* ScrollSection.swift */,
+				23C6F7E229EA0F8700BBEE80 /* LargeButton.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23884B2C29E1FC1A00777D8F /* ContentView.swift in Sources */,
+				23C6F7E329EA0F8700BBEE80 /* LargeButton.swift in Sources */,
 				2396DFF129E4C1560028AB2E /* TabData.swift in Sources */,
 				236009F629E20230008C9B25 /* TicketData.swift in Sources */,
 				236009F229E20207008C9B25 /* utils.swift in Sources */,

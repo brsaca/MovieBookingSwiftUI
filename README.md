@@ -29,4 +29,4 @@ A project with SwiftUI based on the course [Build a Movie Booking App in SwiftUI
 **Brenda Saavedra**
 
 - WebPage: [brendasaavedra.com](http://brendasaavedra.com)
-- Github: [@brenfondeadora](https://github.com/brenfondeadora/)
+- Github: [@brsaca](https://github.com/brsaca/)
